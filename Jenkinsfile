@@ -10,6 +10,7 @@ pipeline {
         bat 'mvn clean compile test'
         echo "Testing is done"
       }
+    ]
     stage('Build') {
       steps {
         //sh 'mvn package'
